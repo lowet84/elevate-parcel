@@ -1,0 +1,40 @@
+// Vue
+
+import Vue from 'vue'
+import App from './App.vue'
+
+new Vue({ el: '#app', render: d => d(App) })
+
+
+
+
+// React
+
+import Vue from 'vue'
+import App from './App.vue'
+import Demo from './components/Demo.vue'
+
+Vue.component('demo', Demo)
+
+new Vue({ el: '#app', render: d => d(App) })
+
+
+
+
+// index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width,initial-scale=1.0"
+    />
+    <title>Elevate - Parcel</title>
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+    <script src="#########"></script>
+  </body>
+</html>
