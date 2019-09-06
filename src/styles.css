@@ -20,3 +20,10 @@ body {
 .sub-title {
   font-size: 24;
 }
+
+.name {
+  margin-top: 30px;
+  font-size: 18;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
