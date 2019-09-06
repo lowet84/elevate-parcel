@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  background: rgb(46, 46, 46);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
+  font-size: 48;
+}
+
+.sub-title {
+  font-size: 24;
+}

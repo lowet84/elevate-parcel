@@ -10,13 +10,15 @@ new Vue({ el: '#app', render: d => d(App) })
 
 // React
 
-import Vue from 'vue'
-import App from './App.vue'
-import Demo from './components/Demo.vue'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-Vue.component('demo', Demo)
+import App from './App'
 
-new Vue({ el: '#app', render: d => d(App) })
+ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+)
 
 
 
