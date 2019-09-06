@@ -14,16 +14,16 @@ body {
 }
 
 .title {
-  font-size: 48;
+  font-size: 3vw;
 }
 
 .sub-title {
-  font-size: 24;
+  font-size: 1.2vw;
 }
 
 .name {
-  margin-top: 30px;
-  font-size: 18;
+  margin-top: 1vh;
+  font-size: 1.1vw;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 0.18vw;
 }
