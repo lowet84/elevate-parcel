@@ -11,7 +11,7 @@
   <body>
     <div id="app">Loading</div>
     <script>
-      var texts = fetch('/webpack.json')
+      var texts = fetch('/slides/intro.json')
         .then(res => res.json())
         .then(json => {
           var app = document.getElementById('app')
