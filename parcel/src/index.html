@@ -11,15 +11,15 @@
   <body>
     <div id="app">Loading</div>
     <script>
-      var texts = fetch('/texts.json')
+      var texts = fetch('/webpack.json')
         .then(res => res.json())
         .then(json => {
           var app = document.getElementById('app')
           var content = `
             <div class="presentation">
                 <div class="title">${json.title}</div>
-                <div class="sub-title">${json.subTitle}</div>
-                <div class="name">${json.name}</div>
+                ${json.body.map(d => `<div class="sub-title">${d}</div>`).join('')}
+                ${json.name ? `<div class="name">${json.name}</div>` : ''}
             </div>
           `
           var newEl = document.createElement('div')

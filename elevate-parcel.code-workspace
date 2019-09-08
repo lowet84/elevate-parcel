@@ -1,7 +1,10 @@
 {
   "folders": [
     {
-      "path": "."
+      "path": "parcel"
+    },
+    {
+      "path": "webpack"
     }
   ],
   "settings": {
@@ -9,8 +12,8 @@
       "**/.git": true,
       "**/node_modules": true,
       "**/.cache": true,
-      "**/dist": true,
-      "**/build": true
-    }
+      "**/dist": true
+    },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true
   }
 }
