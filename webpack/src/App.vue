@@ -1,14 +1,21 @@
 <template>
   <div class="presentation container">
-    <div>{{ msg }}</div>
+    <div class="title">
+      {{ slide.title }}
+    </div>
+    <div class="sub-title" v-for="(line,index) in slide.body" :key="index">
+      {{line}}
+    </div>
   </div>
 </template>
 
 <script>
+import { slides } from './slides'
+
 export default {
   data () {
     return {
-      msg: '!hejsdfsdf'
+      slide: slides[1]
     }
   }
 }

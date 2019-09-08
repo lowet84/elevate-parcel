@@ -11,14 +11,17 @@
   <body>
     <div id="app">Loading</div>
     <script>
-      var texts = fetch('/slides/intro.json')
+      var slide = window.location.hash.replace('#', '') || 'intro'
+      var texts = fetch(`/slides/${slide}.json`)
         .then(res => res.json())
         .then(json => {
           var app = document.getElementById('app')
           var content = `
             <div class="presentation">
                 <div class="title">${json.title}</div>
-                ${json.body.map(d => `<div class="sub-title">${d}</div>`).join('')}
+                ${json.body
+                  .map(d => `<div class="sub-title">${d}</div>`)
+                  .join('')}
                 ${json.name ? `<div class="name">${json.name}</div>` : ''}
             </div>
           `
