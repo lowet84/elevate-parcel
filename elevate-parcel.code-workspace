@@ -12,7 +12,11 @@
       "**/.git": true,
       "**/node_modules": true,
       "**/.cache": true,
-      "**/dist": true
+      "**/dist": true,
+      "**/Typings": true,
+      "tsconfig.json": true,
+      ".prettierrc": true,
+      "yarn.lock": true,
     },
     "javascript.format.insertSpaceBeforeFunctionParenthesis": true
   }
