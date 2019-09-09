@@ -11,20 +11,28 @@
   <body>
     <div id="app">Loading</div>
     <script>
+      // Select slide here
       var slide = window.location.hash.replace('#', '') || 'intro'
-      var texts = fetch(`/slides/${slide}.json`)
+
+      // Get slide json data
+      var texts = fetch(`/slides.json`)
         .then(res => res.json())
         .then(json => {
+          var data = json[slide]
           var app = document.getElementById('app')
+
+          // Render some html
           var content = `
             <div class="presentation">
-                <div class="title">${json.title}</div>
-                ${json.body
+                <div class="title">${data.title}</div>
+                ${data.body
                   .map(d => `<div class="sub-title">${d}</div>`)
                   .join('')}
-                ${json.name ? `<div class="name">${json.name}</div>` : ''}
+                ${data.name ? `<div class="name">${data.name}</div>` : ''}
             </div>
           `
+
+          // Replace html element
           var newEl = document.createElement('div')
           newEl.innerHTML = content
           app.parentNode.replaceChild(newEl, app)

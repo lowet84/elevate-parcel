@@ -1,0 +1,19 @@
+{
+  "intro": {
+    "title": "Är det dags att fimpa webpack?",
+    "body": ["Enklare byggen med parcel.js"],
+    "name": "Fredrik Löwenhamn"
+  },
+  "webpack": {
+    "title": "webpack",
+    "body": ["JavaScript-bundler"]
+  },
+  "alternative": {
+    "title": "ett enklare alternativ?",
+    "body": ["parcel.js"]
+  },
+  "parcel": {
+    "title": "parcel.js",
+    "body": ["bundler", "open-source", "\"zero-config\""]
+  }
+}
