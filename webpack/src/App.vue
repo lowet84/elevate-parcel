@@ -1,7 +1,7 @@
 <template>
   <div class="presentation container">
     <div class="title">{{ slide.title }}</div>
-    <div class="sub-title" v-for="(line,index) in slide.body" :key="index">{{line}}</div>
+    <div class="sub-title" v-for="(line,index) in slide.content" :key="index">{{line}}</div>
   </div>
 </template>
 
