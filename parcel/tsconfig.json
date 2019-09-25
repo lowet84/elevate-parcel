@@ -1,6 +1,16 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": ["esnext", "dom"],
+    "rootDir": ".",
+    "sourceMap": true
   }
 }
