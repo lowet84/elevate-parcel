@@ -5,6 +5,9 @@
     },
     {
       "path": "webpack"
+    },
+    {
+      "path": "extra"
     }
   ],
   "settings": {
