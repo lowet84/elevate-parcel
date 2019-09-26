@@ -10,7 +10,10 @@ function createWindow() {
     height: 900
   });
 
-
+  // package.json scripts
+  // "electron": "run-p build:electron electron",
+  // "build:electron": "parcel watch --public-url ./ --bundle-node-modules src/index.html",
+  // "start:electron": "electron electron.js"
 
   // ==========================================
   // ==                                      ==
@@ -21,10 +24,6 @@ function createWindow() {
   // ==========================================
   win.loadFile("dist/index.html"); // <== This one!!!
 
-
-
-
-  
   win.webContents.openDevTools();
   win.on("closed", () => {
     win = null;

@@ -1,3 +1,0 @@
-"electron": "run-p build:electron electron",
-"build:electron": "parcel watch --public-url ./ --bundle-node-modules src/index.html",
-"start:electron": "electron electron.js"
