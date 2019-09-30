@@ -8,7 +8,7 @@
 <script>
 import slides from '../../parcel/src/slides.json'
 
-const slideNames = ['alternative', 'parcel']
+const slideNames = ['alternative', 'parcel', 'vue']
 const selected = 0
 
 export default {

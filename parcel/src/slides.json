@@ -11,10 +11,17 @@
   },
   "alternative": {
     "title": "ett enklare alternativ?",
-    "content": ["parcel.js"]
+    "content": ["parcel.js"],
+    "image": "https://parceljs.org/assets/parcel-og.png"
   },
   "parcel": {
     "title": "parcel.js",
-    "content": ["bundler", "open-source", "\"zero-config\""]
+    "content": ["bundler", "open-source", "\"zero-config\""],
+    "image": "https://parceljs.org/assets/parcel-og.png"
+  },
+  "vue": {
+    "title": "parcel.js",
+    "content": ["bundler", "open-source", "\"zero-config\""],
+    "image": "https://parceljs.org/assets/parcel-og.png"
   }
 }
