@@ -24,6 +24,7 @@
           // Render some html
           var content = `
             <div class="presentation">
+                ${data.image?`<img class="image" src="${data.image}" alt="">`:""}
                 <div class="title">${data.title}</div>
                 ${data.content
                   .map(d => `<div class="sub-title">${d}</div>`)
