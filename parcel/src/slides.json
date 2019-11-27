@@ -30,8 +30,13 @@
     "image": "https://parceljs.org/assets/parcel-og.png"
   },
   "vue": {
-    "title": "parcel.js",
-    "content": ["bundler", "open-source", "\"zero-config\""],
-    "image": "https://parceljs.org/assets/parcel-og.png"
+    "title": "Vue.js",
+    "content": ["ett javascript-ramverk"],
+    "image": "https://vuejs.org/images/logo.png"
+  },
+  "react": {
+    "title": "React",
+    "content": ["ett annat javascript-ramverk"],
+    "image": "https://cdn.worldvectorlogo.com/logos/react.svg"
   }
 }

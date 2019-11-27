@@ -1,7 +1,10 @@
 <template>
   <div class="presentation container">
     <div class="title">{{ slide.title }}</div>
-    <div class="sub-title" v-for="(line,index) in slide.content" :key="index">{{line}}</div>
+    <div class="sub-title" v-for="(line, index) in slide.content" :key="index">
+      {{ line }}
+    </div>
+    <img class="image" :src="slide.image" />
   </div>
 </template>
 
@@ -9,7 +12,11 @@
 import slides from '../../parcel/src/slides.json'
 
 const slideNames = ['alternative', 'parcel', 'vue']
-const selected = 0
+
+// Select slide here
+// =======================
+const selected = 0  //   =
+// =======================
 
 export default {
   data() {
