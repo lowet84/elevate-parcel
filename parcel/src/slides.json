@@ -6,7 +6,17 @@
   },
   "webpack": {
     "title": "webpack",
-    "content": ["JavaScript-bundler"],
+    "content": [
+      "JavaScript-bundler",
+      "",
+      "",
+      "",
+      "modul-baserad",
+      "plugins",
+      "hot reload",
+      "css-loaders",
+      "etc."
+    ],
     "image": "https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png"
   },
   "alternative": {
