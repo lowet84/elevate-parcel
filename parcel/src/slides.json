@@ -21,8 +21,8 @@
   },
   "alternative": {
     "title": "ett enklare alternativ?",
-    "content": ["parcel.js"],
-    "image": "https://parceljs.org/assets/parcel-og.png"
+    "content": [],
+    "image": null
   },
   "parcel": {
     "title": "parcel.js",
