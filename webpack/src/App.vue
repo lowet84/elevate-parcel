@@ -1,10 +1,10 @@
 <template>
   <div class="presentation container">
+    <img v-if="slide.image" class="image" :src="slide.image" />
     <div class="title">{{ slide.title }}</div>
     <div class="sub-title" v-for="(line, index) in slide.content" :key="index">
       {{ line }}
     </div>
-    <img v-if="slide.image" class="image" :src="slide.image" />
   </div>
 </template>
 

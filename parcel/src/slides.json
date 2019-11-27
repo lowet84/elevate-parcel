@@ -34,9 +34,27 @@
     "content": ["ett javascript-ramverk"],
     "image": "https://vuejs.org/images/logo.png"
   },
+  "help": {
+    "title": "Typescript",
+    "content": ["typsäkrad javascript"],
+    "image": "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png"
+  },
   "react": {
     "title": "React",
     "content": ["ett annat javascript-ramverk"],
     "image": "https://cdn.worldvectorlogo.com/logos/react.svg"
+  },
+  "cons": {
+    "title": "Nackdelar",
+    "content": [
+      "mindre community",
+      "färre templates",
+      "färre plugins",
+      "",
+      "",
+      "",
+      "ingen dev-proxy"
+    ],
+    "image": "https://cdn4.iconfinder.com/data/icons/web-design-and-development-4-5/64/171-512.png"
   }
 }
