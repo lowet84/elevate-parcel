@@ -56,5 +56,20 @@
       "ingen dev-proxy"
     ],
     "image": "https://cdn4.iconfinder.com/data/icons/web-design-and-development-4-5/64/171-512.png"
+  },
+  "node": {
+    "title": "node.js",
+    "content": ["javascript på serversidan"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
+  },
+  "elsectron": {
+    "title": "Electron",
+    "content": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png"
+  },
+  "conclusion": {
+    "title": "Tack så mycket",
+    "content": ["parceljs.org"],
+    "image": "https://parceljs.org/assets/parcel-og.png"
   }
 }
