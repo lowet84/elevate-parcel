@@ -62,7 +62,7 @@
     "content": ["javascript på serversidan"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
   },
-  "elsectron": {
+  "electron": {
     "title": "Electron",
     "content": [],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png"
